@@ -1,0 +1,76 @@
+﻿/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+
+/* Header */
+header {
+  background-color: #0a5cff;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+
+header p {
+  font-size: 1.2em;
+}
+
+
+/* WhatsApp Button */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: white;
+  color: #0a5cff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  background: white;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+.services li {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+}
